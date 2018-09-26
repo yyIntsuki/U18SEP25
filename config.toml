@@ -12,8 +12,9 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 pygmentsUseClasses = true # new add
 
 [params] # theme parameters
-    author = "Intuki" # Author's name.
-    info = "Programming Student & Developer" # Author's job title or info.
+    author = "Intsuki" # Author's name.
+	authorAltName = "Peter Yuanzong Li" # Author's alternative name.
+    info = "Programmer & Student" # Author's job title or info.
     description = "Intsuki's personal website" # Site description.
     keywords = "github,developer,personal" # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
@@ -21,7 +22,7 @@ pygmentsUseClasses = true # new add
 	footercontent = "© Intsuki 2018" # Add footer content
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/custom.css"]
 
     # Alignment of Mobile Menu items
     itemscentered = true
@@ -46,11 +47,11 @@ pygmentsUseClasses = true # new add
     url = "mailto:intsuki.yz@gmail.com"
 
 # Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "posts"
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "posts"
 [[menu.main]]
     name = "About"
-    weight = 2
+    weight = 1
     url = "about"
