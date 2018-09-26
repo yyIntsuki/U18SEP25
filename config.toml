@@ -26,9 +26,6 @@ pygmentsUseClasses = true # new add
     # Alignment of Mobile Menu items
     itemscentered = true
 
-    # RTL support
-    rtl = false
-
     thumbnail = "images/tn.png" # default sns thumbnail
 
     # Multilanguage mode
