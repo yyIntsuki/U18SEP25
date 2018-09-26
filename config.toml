@@ -1,5 +1,5 @@
 baseurl = "https://intsuki.netlify.com" # Hostname (and path) to the root.
-title = "Main | Intsuki" # Site title.
+title = "Intsuki" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
 defaultcontentlanguage = "en" # The default content language.
@@ -13,14 +13,12 @@ pygmentsUseClasses = true # new add
 
 [params] # theme parameters
     author = "Intuki" # Author's name.
-    info = "T4 Student & Developer" # Author's job title or info.
+    info = "Programming Student & Developer" # Author's job title or info.
     description = "Intsuki's personal website" # Site description.
     keywords = "github,developer,personal" # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
-
-    # Whether you want to hide copyright and credits in the footer.
-    hideCredits = false
-    hideCopyright = false
+	
+	footercontent = "© Intsuki 2018" # Add footer content
 
     # Custom CSS
     custom_css = []
@@ -30,8 +28,6 @@ pygmentsUseClasses = true # new add
 
     # RTL support
     rtl = false
-
-    snsShare = true # new add
 
     thumbnail = "images/tn.png" # default sns thumbnail
 
@@ -44,13 +40,13 @@ pygmentsUseClasses = true # new add
     weight = 1
     url = "https://github.com/yyIntsuki/"
 [[params.social]]
-    name = "Twitter"
+    name = "Stack Overflow"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://stackoverflow.com/users/10417903/intsuki"
 [[params.social]]
-    name = "LinkedIn"
+    name = "E-Mail"
     weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "mailto:intsuki.yz@gmail.com"
 
 # Menu links
 [[menu.main]]
