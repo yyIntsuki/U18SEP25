@@ -1,4 +1,4 @@
-baseurl = "https://intsuki.netlify.com" # Hostname (and path) to the root.
+baseurl = "https://intsukii.netlify.com" # Hostname (and path) to the root.
 title = "Intsuki" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
@@ -47,11 +47,7 @@ pygmentsUseClasses = true # new add
     url = "mailto:intsuki.yz@gmail.com"
 
 # Menu links
-#[[menu.main]]
-#    name = "Blog"
-#    weight = 1
-#    url  = "posts"
 [[menu.main]]
-    name = "About"
+    name = "About Me"
     weight = 1
-    url = "about"
+    url = "/post/about"
